@@ -1,0 +1,52 @@
+
+(*
+
+let rec chain total max funcs = match funcs with
+[] -> max
+|h::t -> let newTotal = h total
+in curr  = (chain newTotal max t)
+in let newMax = if curr > max then curr else max
+in if 
+  
+  if (chain total max t) > max then
+
+  let rec chain index curr total max funcs = match funcs with
+  [] -> max
+  |h::t -> let reChain index curr h total max t = match t with
+  [] -> max
+  |h::t -> if max > h curr then curr = curr
+  else max = h curr && curr = h curr
+in
+  if max > total then total = total
+  else max = total && curr = total
+in
+  reChain index+1 curr total max t 
+in
+  chain 0 init init init lst
+
+
+  let rec chain index curr total max funcs = match funcs with
+  [] -> total
+  |h::t -> total = h total in 
+  let reChain index+1 curr total max t  = match t with
+  [] -> total
+  |h::t -> total = h total in
+  if max < h curr then max = h curr && curr = h curr 
+  else max = max && curr = curr in 
+  if max < total then max = total && curr = total
+  else max = max && curr = curr
+  in reChain index curr total max t
+  in chain index+1 curr total max t
+in chain 0 init init init funcs
+
+
+  (*let max = init in
+  let total = init in 
+  let curr = init in
+  match func with
+  [] -> init
+  |h::t -> if maxFuncChain total = (h total) in max < (h curr)
+    then max = (h curr)
+    else curr = (h curr) in
+  if max < total then max = total && curr = total else max && curr*)
+  

@@ -1,0 +1,50 @@
+
+# This is how you can load in files for testing
+WORDS_FILE1 = "#{__dir__}/../test/public/inputs/words1.txt"
+GRAMMAR_FILE1 = "#{__dir__}/../test/public/inputs/grammar1.txt"
+WORDS_FILE2 = "#{__dir__}/../test/public/inputs/words2.txt"
+GRAMMAR_FILE2 = "#{__dir__}/../test/public/inputs/grammar2.txt"
+WORDS_FILE3 = "#{__dir__}/../test/public/inputs/words3.txt"
+GRAMMAR_FILE3 = "#{__dir__}/../test/public/inputs/grammar3.txt"
+
+#test = Translator.new(WORDS_FILE3, GRAMMAR_FILE3)
+#test.updateLexicon(WORDS_FILE3)
+#test.updateGrammar(GRAMMAR_FILE3)
+#str = test.generateSentence("French", "English")
+#puts test.generateSentence("English", ["DET", "ADJ", "NOU"])
+#puts test.generateSentence("Italian", ["DET", "ADJ", "NOU"])
+#puts test.generateSentence("French", ["NOU", "DET"])
+#puts test.generateSentence("German", ["ADJ", "DET", "NOU"])
+#puts test.generateSentence("Italian", ["NOU"])
+#puts test.checkGrammar("the blue sea", "English")
+#puts test.checkGrammar(test.generateSentence("English", ["DET", "ADJ", "NOU"]) , "English")
+#puts test.checkGrammar(test.generateSentence("German", ["NOU", "ADJ"]), "German")
+#puts test.checkGrammar(test.generateSentence("French", ["ADJ", "NOU", "DET"]), "French")
+#puts test.checkGrammar(test.generateSentence("Spanish", ["DET", "NOU", "DET"]), "Spanish")
+#puts test.changeGrammar("blue the truck", ["ADJ", "DET", "NOU"], ["DET", "ADJ", "NOU"])
+#puts test.changeGrammar("der rot meer", ["DET", "ADJ", "NOU"], ["ADJ", "NOU", "DET"])
+#puts test.changeGrammar("bleu mer le", "French", "English")
+#puts test.changeGrammar("rojo camion", ["ADJ", "NOU"], ["NOU", "ADJ"])
+#puts test.changeLanguage("the truck blue", "English", "Spanish")
+#puts test.changeLanguage("the sea blue", "English", "French")
+#puts test.changeLanguage("the sea blue", "English", "German")
+#puts test.changeLanguage("el camion el", "Spanish", "German")
+#puts test.changeLanguage("el camion el", "Spanish", "English")
+#puts test.changeLanguage("le mer bleu", "French", "German")
+#puts test.changeLanguage("gabel blau", "German", "English")
+#puts test.changeLanguage("lkw rot", "German", "Spanish") 
+#puts test.translate("the blue sea", "English", "Spanish")
+#puts test.translate("rojo mer le", "French", "Spanish")
+#puts test.translate("el camion el", "Spanish", "French")
+#puts test.translate("el camion el", "Spanish", "German")
+#puts test.translate("el camion el", "Spanish", "English")
+#puts test.translate("the blue sea", "English", "French")
+#puts test.translate("rouge mer le", "French", "English")
+
+#puts test.generateSentence("German", "German")
+#puts test.generateSentence("French", "French")
+#word = test.generateSentence("Spanish", ["DET", "NOU", "DET"])
+#puts word
+#puts test.changeGrammar(word, "Spanish", ["DET", "DET", "NOU"])#.match?(/el el camion/)
+
+#puts test.translate("w-oneeight w-oneeight w-onetwo w-twoseven", "L3", "L2")
